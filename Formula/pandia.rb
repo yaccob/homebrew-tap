@@ -13,7 +13,7 @@ class Pandia < Formula
   depends_on "basictex" => :optional
 
   def install
-    share.install "diagram-filter.lua" => "pandia/diagram-filter.lua"
+    (share/"pandia").install "diagram-filter.lua"
     bin.install "bin/pandia"
   end
 
