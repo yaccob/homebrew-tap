@@ -1,8 +1,8 @@
 class Pandia < Formula
   desc "Markdown to PDF/HTML with PlantUML, Graphviz, Mermaid, Ditaa, TikZ and LaTeX math"
   homepage "https://github.com/yaccob/pandia"
-  url "https://github.com/yaccob/pandia/archive/refs/tags/v1.1.0.tar.gz"
-  version "1.1.0"
+  url "https://github.com/yaccob/pandia/archive/refs/tags/v1.2.0.tar.gz"
+  version "1.2.0"
   license "MIT"
 
   depends_on "pandoc"
@@ -27,7 +27,7 @@ class Pandia < Formula
 
   test do
     (testpath/"test.md").write("# Hello\n\n$$E=mc^2$$\n")
-    system bin/"pandia", "--html", "test.md"
+    system bin/"pandia", "-t", "html", "test.md"
     assert_predicate testpath/"test.html", :exist?
   end
 end
