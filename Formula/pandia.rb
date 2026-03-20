@@ -1,8 +1,9 @@
 class Pandia < Formula
   desc "Markdown to PDF/HTML with PlantUML, Graphviz, Mermaid, Ditaa, TikZ and LaTeX math"
   homepage "https://github.com/yaccob/pandia"
-  url "https://github.com/yaccob/pandia/archive/refs/tags/v1.3.0.tar.gz"
-  version "1.3.0"
+  url "https://github.com/yaccob/pandia/archive/refs/tags/v1.4.0.tar.gz"
+  sha256 "81d715f9075ce9e94c78d28f079338f4e1b478e0a379e47e5eb4158ef5bc0c72"
+  version "1.4.0"
   license "MIT"
 
   depends_on "pandoc"
