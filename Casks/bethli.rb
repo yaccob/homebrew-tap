@@ -1,8 +1,11 @@
 cask "bethli" do
-  version "0.2.1"
-  sha256 "42040269805b68f07abb1bd93764c36f5833c543d02dd8e313a63728e8289513"
+  arch arm: "aarch64", intel: "x64"
 
-  url "https://github.com/yaccob/bethli-gui/releases/download/v#{version}/BeThLi_#{version}_aarch64.dmg"
+  version "0.2.1"
+  sha256 arm:   "42040269805b68f07abb1bd93764c36f5833c543d02dd8e313a63728e8289513",
+         intel: "ca88e23e620852e7ac9212a24e930e9b5f0d389cf2dca0dcabac7fdc739f6c48"
+
+  url "https://github.com/yaccob/bethli-gui/releases/download/v#{version}/BeThLi_#{version}_#{arch}.dmg"
   name "BeThLi"
   desc "Hide files in images and reveal them again"
   homepage "https://github.com/yaccob/bethli-gui"
@@ -12,7 +15,6 @@ cask "bethli" do
     strategy :github_latest
   end
 
-  depends_on arch: :arm64
   depends_on :macos
 
   app "BeThLi.app"
