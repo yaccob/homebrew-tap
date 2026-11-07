@@ -1,9 +1,9 @@
 cask "bethli" do
   arch arm: "aarch64", intel: "x86_64"
 
-  version "0.5.0"
-  sha256 arm:   "a9d10aac1344918a84c3d5c224e0e205a65fe20151354947ca24788a68f62162",
-         intel: "f0eb838eab283458c62cb9a4d2179d0f3e351d1cd0c55d34ec6428c4643c93a1"
+  version "0.6.0"
+  sha256 arm:   "f17ef0fe32bc0e1848d3a8a3a03507fbab9aa270234abb8f05d15090cb9dcc13",
+         intel: "0c56df1f4b5200bbe38eef31c18cc5d1222eb19a3ac2bfa46a8341acb309d910"
 
   url "https://github.com/yaccob/bethli/releases/download/cli-v#{version}/bethli-cli_#{version}_#{arch}-apple-darwin.tar.gz"
   name "BeThLi command line"
