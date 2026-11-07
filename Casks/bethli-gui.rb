@@ -6,7 +6,7 @@ cask "bethli-gui" do
          intel: "48403dc95380ea8f5ce14b786f2812933850a3739fa76e0fd1f69a1a05d8fc2a"
 
   url "https://github.com/yaccob/bethli/releases/download/gui-v#{version}/BeThLi_#{version}_#{arch}.dmg"
-  name "BeThLi"
+  name "BeThLi app"
   desc "Hide files in images and reveal them again (desktop app)"
   homepage "https://github.com/yaccob/bethli"
 
