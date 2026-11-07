@@ -21,10 +21,4 @@ cask "bethli" do
   depends_on :macos
 
   binary "bethli-cli_#{version}_#{arch}-apple-darwin/bethli"
-
-  caveats <<~EOS
-    This cask is the command line of BeThLi. Until 2026-11-06 it was the
-    desktop app, which is now the cask bethli-gui:
-      brew install --cask yaccob/tap/bethli-gui
-  EOS
 end
