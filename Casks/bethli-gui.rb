@@ -1,9 +1,9 @@
 cask "bethli-gui" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.4.0"
-  sha256 arm:   "da44c09d8c26e6b3d40d550f1f0d7c5b64a6f997c68cedf1b1dde54ff4868344",
-         intel: "48403dc95380ea8f5ce14b786f2812933850a3739fa76e0fd1f69a1a05d8fc2a"
+  version "0.5.0"
+  sha256 arm:   "a7dd422beeecebc210830a7a1c60ec3fbb36b8f31e75e78b925e06c2c49ed730",
+         intel: "663f9983698e33edb97bc2563c80226fe5bad0667d08e0587e559d8dbae7a88f"
 
   url "https://github.com/yaccob/bethli/releases/download/gui-v#{version}/BeThLi_#{version}_#{arch}.dmg"
   name "BeThLi app"
