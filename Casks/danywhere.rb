@@ -1,9 +1,9 @@
 cask "danywhere" do
   arch arm: "aarch64", intel: "x64"
 
-  version "0.2.2"
-  sha256 arm:   "0484d25d0dd14990801078a2644622120370ee84fc87e6d5482ae82ae61897cf",
-         intel: "2767788d8f50728df6da7cf6a479c2a3d2c00cda01b35abf13b552bf2d23d362"
+  version "0.2.3"
+  sha256 arm:   "0d399e59bee5747a234e7370a4d9d219c318b52b488038cb76765f029cafbd4f",
+         intel: "1388b2d3f4033025738983ee1d5f26124759a08a1e60a4c187f671fabb4f8e94"
 
   url "https://github.com/yaccob/DanyWhere/releases/download/danywhere-v#{version}/DanyWhere_#{version}_#{arch}.dmg"
   name "DanyWhere"
